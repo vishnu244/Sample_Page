@@ -1,0 +1,54 @@
+.Header{
+    background: rgb(62, 120, 246);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 0ch;
+    border: 10px solid rgb(18, 90, 246);
+    border-style: outset;
+}
+.center{
+    background: pink;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+     
+}
+article{
+    border-style: outset;
+    width:800px;
+    padding:10px;
+}
+.column{
+    display: flex;
+}
+.Leftside,.leftSideBar{
+    padding:10px;
+    background: lightgreen;
+    margin: 0ch;
+}
+.rightside,.rightSideBar{
+    padding:10px;
+    background: skyblue;
+    margin: 0ch;
+}
+/*used to align left and right side bar*/
+.sidebarItem{
+    flex:1 0 0;
+    border:0px solid green;
+}
+.mainContainer{
+    display:flex;
+    flex:3 0px;
+    flex-wrap: wrap;
+}
+footer{
+    background: grey;
+    padding:30px;
+    text-align: center;
+    border: 5px solid rgb(106, 105, 105);
+    font-weight: bold;
+    font-size: x-large;
+    border-style: outset;
+}
+
